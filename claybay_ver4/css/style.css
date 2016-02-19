@@ -1,0 +1,128 @@
+
+
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: #996633;
+}
+
+.logo img{
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin: 30px auto;
+}
+
+/* Nav */
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	left:50%;
+	border: 1px solid #ccc;
+	background-color: rgba(0,0,0,.65);
+}
+
+nav ul li a {
+	display: block;
+	color: #fff;
+	padding: 20px;
+	text-decoration: none;
+	text-align: center;
+
+
+}
+
+nav ul li a:visited {
+	color: #fff;
+}
+
+nav ul li a:hover {
+	background-color: #6d0911;
+}
+
+
+/* ========LOGIN PAGE======== */
+
+
+input, button{
+	display: block;
+	margin: 0 auto;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 100%;
+}
+
+input {
+	width: 200px;
+	padding: 5px;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+}
+
+.login-button, .edit-profile-button, .add-friend-button, .send-button {
+	border: transparent;
+	background-color: rgba(0,0,0,.65);
+	color: #fff;
+	font-weight: 700;
+}
+
+.signup-button {
+	border: 1px solid #fff;
+	background-color: transparent;
+	color: #fff;
+}
+
+hr {
+	width: 200px;
+	margin-top: 50px;
+}
+
+h5 {
+	text-align: center;
+}
+
+
+/* ========HOME PAGE======== */
+
+.home-nav {
+	border-bottom: 3px solid #fff;
+}
+
+/* Banner */
+
+.banner h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	z-index: 1;
+}
+
+.banner p {
+	text-align: center;
+	color: #fff;
+	margin-top: -35px;
+	font-size: 25px;
+	z-index: 1;
+}
+
+.banner img {
+	width: 100%;
+	height: auto;
+}
+
+
+/* ========PRODUCTS PAGE======== */
+
+.products-nav {
+	border-bottom: 3px solid #fff;
+}
+
+
